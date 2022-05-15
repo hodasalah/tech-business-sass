@@ -1,0 +1,41 @@
+.chooseUs {
+	.title-wrapper {
+		margin-bottom: 40px;
+	}
+	& .part {
+		margin: 40px 0;
+		i {
+			color: #fff;
+			font-size: 20px;
+			background-color: transparent;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			text-align: center;
+			border-radius: 100px;
+			transform: rotate(0deg);
+			transition: all 0.5s ease 0s;
+			display: inline-block;
+			margin-bottom: 20px;
+		}
+		&-1 i {
+			background-image: linear-gradient(
+				90deg,
+				$orange 0%,
+				$darkYellow 100%
+			);
+		}
+		&-2 i {
+			background-image: linear-gradient(90deg, #2f057b 0%, #6745c5 100%);
+		}
+	}
+	.img-part {
+		position: relative;
+		.anim-shape {
+			position: absolute;
+			bottom: 20%;
+			left: 122px;
+			@include inline-animation(5s, transform, translateX, 0px, 45px);
+		}
+	}
+}

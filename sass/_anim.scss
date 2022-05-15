@@ -1,0 +1,75 @@
+.anim-wrap {
+	.anim-img {
+		position: relative;
+		.animated-bg {
+			position: absolute;
+			top: 20px;
+			left: -10px;
+
+			@include inline-animation(5s, transform, translateX, 0px, 30px);
+			transition: 0.5s;
+			z-index: -1;
+		}
+		.stars-box {
+			background-color: #fff;
+			width: 100%;
+			max-width: 380px;
+			position: absolute;
+			bottom: -30px;
+			left: 50%;
+			transform: translateX(-50%);
+			margin: 0 auto;
+			padding: 25px 40px 20px;
+			border: 4px solid transparent;
+			border-radius: 20px;
+			border-bottom-color: $orange;
+			box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 9%);
+			transition: background 0.3s, border 0.3s, border-radius 0.3s,
+				box-shadow 0.3s;
+			.stars {
+				text-align: center;
+				margin-bottom: 20px;
+				i {
+					color: $orange;
+					font-size: 1.5rem;
+				}
+			}
+			.star-info {
+				text-align: center;
+				h6 {
+					font-size: 1rem;
+				}
+			}
+		}
+		@media (max-width: 1200px) and (min-width: 993px) {
+			.animated-bg {
+				left: 0;
+			}
+		}
+		@media (max-width: 992px) {
+			text-align: center;
+			.animated-bg {
+				left: 20%;
+			}
+		}
+		@media (max-width: 767px) {
+			.animated-bg {
+				left: 0;
+			}
+		}
+	}
+	.sec-info {
+		max-width: 540px;
+		margin: auto;
+		h2,
+		h3,
+		h6 {
+			margin-bottom: 30px;
+		}
+
+		@media (max-width: 992px) {
+			text-align: center;
+			margin-top: 30px;
+		}
+	}
+}

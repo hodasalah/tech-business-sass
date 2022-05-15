@@ -1,0 +1,120 @@
+.service-wrap {
+	background-color: #f9f9f9;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s,
+		box-shadow 0.3s;
+	padding: 90px 0 110px;
+	position: relative;
+}
+
+.slick-service-items {
+	.service__box {
+		padding: 0 15px;
+		@media (max-width: 767px) and(min-width:600px) {
+			padding: 0 70px;
+		}
+		@media (max-width: 600px) and(min-width:480px) {
+			padding: 0 50px;
+		}
+
+		.box {
+			box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1);
+			background-color: #fffdfd;
+			//header card
+			.header {
+				text-align: left;
+				background-color: transparent;
+				background-image: linear-gradient(
+					90deg,
+					$blue 0%,
+					$purpleDark 100%
+				);
+				transition: background 0.5s ease;
+				padding: 15px 25px 10px;
+				& > * {
+					display: inline-block;
+				}
+				//icon div
+				.head-icon {
+					margin-right: 10px;
+					i {
+						color: #fff;
+						font-size: 45px;
+					}
+				}
+				//head-info
+				.head-info {
+					& > * {
+						color: #fff;
+					}
+					h2 {
+						font-size: 20px;
+						margin-bottom: 5px;
+					}
+					h3 {
+						font-size: 15px;
+						margin-bottom: 10px;
+						font-weight: 500;
+					}
+				}
+			}
+
+			//body card
+			.body {
+				padding: 25px 30px;
+				.service-list {
+					margin: 20px 0;
+				}
+				.btns {
+					position: relative;
+				}
+
+				.btn-circle {
+					position: absolute;
+					left: 0;
+
+					i {
+						background: linear-gradient(
+							90deg,
+							$blue 0%,
+							$purpleDark 100%
+						);
+						color: #fff;
+						transition: 0.5s;
+						&:after {
+							display: none;
+						}
+					}
+				}
+				.btn-rounded {
+					opacity: 0;
+					transform: scaleX(0);
+					transform-origin: left;
+					transition: 1s;
+				}
+			}
+
+			//hover on box
+			&:hover {
+				.header {
+					background-image: linear-gradient(
+						90deg,
+						$darkYellow 0%,
+						$orange 100%
+					);
+				}
+
+				.btn-circle {
+					i {
+						transform: scaleX(0);
+						transform-origin: left;
+					}
+				}
+				.btn-rounded {
+					opacity: 1;
+					transform: scaleX(1);
+					color: #fff;
+				}
+			}
+		}
+	}
+}

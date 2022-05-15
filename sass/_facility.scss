@@ -1,0 +1,44 @@
+.title-wrapper {
+	@media (max-width: 767px) {
+		text-align: center;
+	}
+}
+
+
+.slider-wrapper .box {
+	margin: 15px 0;
+	text-align: center;
+	&__item {
+		padding: 66px 30px 66px;
+		box-shadow: 0px 0px 20px 0px #00000000;
+		background: #fff;
+		transition: 1s;
+		position: relative;
+
+		//icon
+		& i {
+			background-color: transparent;
+			background-image: linear-gradient(90deg, #2f057b 0%, #6745c5 100%);
+			font-size: 60px;
+			width: 112px;
+			height: 112px;
+			line-height: 112px;
+			text-align: center;
+			border-radius: 50%;
+			color: #fff;
+			display: inline-block;
+		}
+		& h3 {
+			margin-top: 19px;
+		}
+	}
+	&:hover .box__item {
+		transition: 1s;
+		background: url("../images/slide-hover.png") no-repeat center
+			center/cover;
+	}
+	&:hover i {
+		background-color: transparent;
+		background-image: linear-gradient(90deg, #ff4a17 0%, #ff8a17 100%);
+	}
+}

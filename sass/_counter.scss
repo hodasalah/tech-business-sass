@@ -1,0 +1,33 @@
+.counter-sec {
+	.flex-box {
+		display: flex;
+		margin-bottom: 50px;
+		.icon-box {
+			i {
+				color: $orange;
+				font-size: 40px;
+				display: inline-block;
+				width: 87px;
+				height: 87px;
+				line-height: 87px;
+				text-align: center;
+				border-style: none;
+				border-radius: 100px;
+				box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.06);
+				margin: 0 20px 0 0;
+			}
+		}
+		.info-box {
+			.counter {
+				font-size: 40px;
+				color: $orange;
+				display: inline-block;
+				font-weight: 700;
+				i {
+					font-size: 40px;
+					margin: 8px 0 0;
+				}
+			}
+		}
+	}
+}

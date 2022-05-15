@@ -1,0 +1,27 @@
+@mixin prefix($property, $value, $prefixes) {
+	@each $prefix in $prefixes {
+		-#{$prefix}-#{$property}: $value;
+	}
+	#{$property}: $value;
+}
+
+@mixin inline-animation($duration, $property, $value, $x, $y) {
+	$name: inline-#{unique-id()};
+
+	@keyframes #{$name} {
+		0% {
+			#{$property}: #{$value }("(#{$x})");
+		}
+		100% {
+			#{$property}: #{$value }("(#{$y})");
+		}
+	}
+
+	animation-name: $name;
+	animation-duration: $duration;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+	animation-delay: 1s;
+	-o-animation-play-state: running;
+}

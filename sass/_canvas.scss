@@ -1,0 +1,56 @@
+.outer-circle {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+		-6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner-circle {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+		inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+		-0.5px -0.5px 0px rgba(255, 255, 255, 1),
+		0.5px 0.5px 0px rgba(0, 0, 0, 0.05),
+		0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+	//center number
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+}
+svg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+circle {
+	fill: none;
+	stroke-width: 10px;
+	stroke-dasharray: 312;
+	stroke-dashoffset: 312;
+}
+.shape--2 circle {
+	animation: animateCircle 5s linear forwards;
+}
+.shape--1 circle {
+	animation: animateCircle2 5s linear forwards;
+}
+// to know num og stroke-dasharray
+// we begin  with 0 then add until circle complete
+// to calculate percentage
+//75% == 320 - (320*.75)=80
+
+@keyframes animateCircle {
+	100% {
+		stroke-dashoffset: 78.5;
+	}
+}
+@keyframes animateCircle2 {
+	100% {
+		stroke-dashoffset: 64;
+	}
+}

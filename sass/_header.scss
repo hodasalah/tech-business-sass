@@ -1,0 +1,146 @@
+// all header
+.all-header-menus {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	@media screen and (max-width: 992px) {
+		position: relative;
+	}
+}
+// first-two-header in big screen
+.header-top-first,
+.header-top-second {
+	background: transparent;
+}
+
+.header-top-first {
+	border-bottom: 1px solid $purple;
+	padding: 10px 0;
+	p {
+		color: #fff;
+	}
+	@media (max-width: 991px) {
+		background: $orange;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+		p {
+			text-align: center !important;
+		}
+	}
+	@media (max-width: 570px) {
+		display: none;
+	}
+}
+.header-top-second {
+	background-color: transparent;
+	color: #fff;
+	padding: 10px 0;
+	p > * {
+		display: inline-block;
+	}
+	@media (min-width: 768px) and (max-width: 991px) {
+		background-color: $blue;
+	}
+	@media (max-width: 767px) {
+		background-color: $darkBlue !important;
+	}
+	& .row {
+		align-items: center;
+	}
+	.social-lang {
+		display: flex;
+		align-items: center;
+		@media (max-width: 767px) {
+			margin-bottom: 1rem;
+		}
+		& a {
+			color: #fff;
+		}
+		.social-list-links {
+			display: flex;
+			margin-right: 10px;
+			align-items: center;
+
+			& li {
+				margin-right: 5px;
+			}
+			i {
+				display: inline-block;
+				height: 40px;
+				width: 40px;
+				background: #ffffff45;
+				text-align: center;
+				line-height: 40px;
+				border-radius: 30px;
+			}
+		}
+	}
+}
+.header-top-hidden-logo {
+	padding: 20px 0;
+	text-align: center;
+	display: none;
+	@media (max-width: 990px) {
+		display: block;
+	}
+}
+.header-top-third {
+	box-shadow: 0 0 65px 0 #00000008;
+	@media (max-width: 992px) {
+		background-color: $orange;
+	}
+}
+.main-nav {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	@media (max-width: 992px) {
+		background-color: $orange;
+	}
+
+	.navbar {
+		flex-grow: 2;
+		.navbar-toggler {
+			background-color: #fff;
+		}
+		.nav-link {
+			margin: 10px;
+			-webkit-transition: 0.5s;
+			transition: 0.5s;
+			position: relative;
+			color: #151616;
+			font-size: 17px;
+			font-weight: 600;
+			text-transform: capitalize;
+			&:hover {
+				color: $orange;
+			}
+			@media (max-width: 992px) {
+				margin: 10px 0;
+				color: #fff;
+				&:hover {
+					color: $blue;
+				}
+			}
+		}
+	}
+	.search {
+		background: $orange;
+		border-radius: 50px;
+		display: inline-block;
+		text-align: center;
+		font-size: 14px;
+		color: #fff;
+		height: 36px;
+		width: 36px;
+		line-height: 36px;
+		margin-left: 20px;
+		cursor: pointer;
+		@media (max-width: 992px) {
+			align-self: flex-start;
+			margin-top: 10px;
+		}
+	}
+}

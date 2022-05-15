@@ -1,0 +1,102 @@
+.sub-item {
+	.icon-box {
+		position: relative;
+
+		span {
+			position: absolute;
+			font-weight: 700;
+			top: 5px;
+			left: 67%;
+			width: 35px;
+			height: 35px;
+			color: #fff;
+			line-height: 35px;
+			border-radius: 5px;
+			background-color: transparent;
+			background-image: linear-gradient(
+				90deg,
+				$orange 0%,
+				$darkYellow 100%
+			);
+			font-size: 15px;
+			transform: translateX(-50%);
+		}
+
+		i {
+			color: $orange;
+			background-color: #fffcfc;
+			font-size: 40px;
+			text-align: center;
+			border-radius: 5px;
+			box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.07);
+			height: 95px;
+			width: 95px;
+			line-height: 95px;
+		}
+	}
+	&:hover i {
+		color: #fff;
+		background-color: transparent;
+		background-image: linear-gradient(90deg, $darkYellow 0%, $orange 100%);
+	}
+	&:hover span {
+		background-color: transparent;
+		background-image: linear-gradient(
+			90deg,
+			$darkBlue 0%,
+			$purpleDark 100%
+		);
+	}
+	h3 {
+		margin-top: 19px;
+	}
+}
+//part 2 projects
+.projects {
+	.project-wrap {
+		position: relative;
+		overflow: hidden;
+		padding-bottom: 45px;
+		margin-bottom: 20px;
+
+		.project-img {
+			position: relative;
+			img {
+				width: 100%;
+			}
+			&:before {
+				position: absolute;
+				content: "";
+				width: 100%;
+				height: 0%;
+				background-image: linear-gradient(
+					180deg,
+					#ff4a1724 0%,
+					#ff4a17 100%
+				);
+				transition: all 0.5s ease-in-out;
+			}
+		}
+		.project-info {
+			position: absolute;
+			background-color: #fff;
+			bottom: -80px;
+			right: 15px;
+			left: 15px;
+			margin: auto;
+			padding: 21px 15px 26px;
+			transition: 0.5s;
+			text-align: center;
+			h2 {
+				text-transform: uppercase;
+			}
+		}
+
+		&:hover .project-info {
+			bottom: -4px;
+		}
+		&:hover .project-img:before {
+			height: 100%;
+		}
+	}
+}

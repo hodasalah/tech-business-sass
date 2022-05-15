@@ -1,0 +1,22 @@
+@import "variables";
+@import "slick";
+@import "mixins";
+@import "global";
+@import "canvas";
+@import "logo";
+@import "header";
+@import "banner-home";
+@import "facility";
+@import "anim";
+@import "service";
+@import "skill";
+@import "process";
+@import "video";
+@import "testimonials";
+@import "portfolio";
+@import "counter";
+@import "chooseUs";
+
+.gray {
+	@include prefix(filter, grayscale(50%), moz webkit);
+}

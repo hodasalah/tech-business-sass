@@ -1,0 +1,233 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #696b6d;
+	font-family: "Red Hat Text", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 17px;
+	line-height: 1.6;
+	background-color: #fff;
+	overflow-x: hidden;
+}
+::selection {
+	background: $orange;
+	color: #fff;
+	text-shadow: none;
+}
+//scroll bar style
+body::-webkit-scrollbar {
+	width: 0.8em;
+}
+
+body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: $orange;
+	outline: 1px solid $darkYellow;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	box-shadow: none;
+	text-decoration: none;
+	color: #fff;
+	&:hover {
+		color: $orange;
+	}
+}
+p {
+	margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	margin-bottom: 0;
+	line-height: 1.2;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: 22px;
+	color: #222;
+	margin: 0 0 10px;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+section {
+	transition: background 0.3s, border 0.3s, border-radius 0.3s,
+		box-shadow 0.3s;
+	padding: 90px 0 110px;
+}
+// global classes
+.wrapper {
+	position: relative;
+}
+.container {
+	max-width: 1140px;
+}
+.widget {
+	display: flex;
+	position: relative;
+	&-row:not(:last-child) {
+		margin-bottom: 50px;
+	}
+	&-wrap {
+		display: flex;
+		padding: 10px;
+		position: relative;
+		width: 100%;
+		flex-wrap: wrap;
+		align-content: flex-start;
+	}
+	&-wrap > * {
+		width: 100%;
+	}
+	&-container {
+		margin: -5px 0 30px;
+		transition: background 0.3s, border 0.3s, border-radius 0.3s,
+			box-shadow 0.3s, -webkit-border-radius 0.3s, -webkit-box-shadow 0.3s;
+	}
+}
+.title-wrapper {
+	& h1,
+	& h2,
+	& h3 {
+		margin: auto;
+		font-size: 38px;
+
+		@media screen and (max-width: 767px) {
+			font-size: 25px;
+			line-height: 30px;
+		}
+	}
+	& h2 {
+		font-size: 17px;
+		color: $orange;
+		margin-bottom: 13px;
+		display: inline-block;
+		@media (max-width: 767px) {
+			margin-bottom: 4px;
+		}
+	}
+}
+.btn {
+	padding: 0;
+}
+.btn-rounded {
+	color: #fff;
+	font-weight: 600;
+	font-size: 17px;
+	background-color: transparent;
+	background-image: linear-gradient(90deg, $orange 0%, $darkYellow 100%);
+	transition: all 0.5s ease;
+	border-radius: 30px;
+	padding: 10px 20px 10px 30px;
+	&:hover {
+		background-image: linear-gradient(-90deg, $orange 0%, $darkYellow 100%);
+	}
+}
+.btn-circle {
+	i {
+		position: relative;
+		color: $orange;
+		background: #fff;
+		height: 50px;
+		width: 50px;
+		text-align: center;
+		line-height: 50px;
+		display: inline-block;
+		transition: 0.5s;
+		border-radius: 50%;
+		margin-right: 10px;
+		font-size: 20px;
+	}
+	i:after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		top: 0;
+		border-radius: 100%;
+		background-color: #fff;
+		animation-fill-mode: both;
+		animation: pulse 1.5s ease-in-out infinite;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: -1;
+	}
+}
+.sec-btn {
+	font-size: 16px;
+	font-weight: 600;
+	color: $orange;
+	padding: 13px 25px;
+	border-radius: 5px;
+	display: inline-block;
+	background: #fff;
+	transition: 0.5s;
+	border: 1px solid #ececec;
+	text-transform: capitalize;
+	i {
+		margin-left: 5px;
+		transition: 1s;
+	}
+	&:hover {
+		background: $orange;
+		border: 1px solid $orange;
+		color: #fff;
+	}
+	&:hover i {
+		margin-left: 15px;
+	}
+}
+// animation effects
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+
+		opacity: 0;
+	}
+	30% {
+		opacity: 0.2;
+	}
+
+	50% {
+		opacity: 0.5;
+	}
+	80% {
+		opacity: 0.5;
+	}
+	100% {
+		transform: scale(2);
+		opacity: 0;
+	}
+}
