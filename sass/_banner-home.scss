@@ -28,14 +28,15 @@
 				max-width: 100%;
 			}
 			&-1 {
-				//animation: topTobottom 5s linear 1s infinite alternate running;
 				left: 0;
 				top: 5%;
 				@include inline-animation(5s, transform, translateY, 0px, 45px);
+				@media (max-width: 767px) {
+					display: none;
+				}
 			}
 			&-2,
 			&-3 {
-				//animation: leftToright 5s linear 1s infinite alternate running;
 				@include inline-animation(
 					5s,
 					transform,
@@ -43,6 +44,9 @@
 					0px,
 					180px
 				);
+				@media (max-width: 767px) {
+					display: none;
+				}
 			}
 			&-2 {
 				top: 0;
@@ -152,20 +156,3 @@
 		}
 	}
 }
-// @keyframes leftToright {
-// 	0% {
-// 		transform: translateX(0px);
-// 	}
-// 	100% {
-// 		transform: translateX(180px);
-// 	}
-// }
-
-// @keyframes topTobottom {
-// 	0% {
-// 		transform: translateY(0px);
-// 	}
-// 	100% {
-// 		transform: translateY(45px);
-// 	}
-// }

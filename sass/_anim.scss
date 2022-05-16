@@ -9,6 +9,9 @@
 			@include inline-animation(5s, transform, translateX, 0px, 30px);
 			transition: 0.5s;
 			z-index: -1;
+			@media (max-width: 767px) {
+				display: none;
+			}
 		}
 		.stars-box {
 			background-color: #fff;

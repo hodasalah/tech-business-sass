@@ -830,8 +830,8 @@ circle {
 .banner-wrap .animation-imgs-bg .img-slide-1 {
   left: 0;
   top: 5%;
-  -webkit-animation-name: inline-u12500c29;
-          animation-name: inline-u12500c29;
+  -webkit-animation-name: inline-ua100efd6;
+          animation-name: inline-ua100efd6;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -845,7 +845,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u12500c29 {
+@-webkit-keyframes inline-ua100efd6 {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -856,7 +856,7 @@ circle {
   }
 }
 
-@keyframes inline-u12500c29 {
+@keyframes inline-ua100efd6 {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -864,12 +864,18 @@ circle {
   100% {
     -webkit-transform: translateY(45px);
             transform: translateY(45px);
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-wrap .animation-imgs-bg .img-slide-1 {
+    display: none;
   }
 }
 
 .banner-wrap .animation-imgs-bg .img-slide-2, .banner-wrap .animation-imgs-bg .img-slide-3 {
-  -webkit-animation-name: inline-u170def21;
-          animation-name: inline-u170def21;
+  -webkit-animation-name: inline-ud2314f62;
+          animation-name: inline-ud2314f62;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -883,7 +889,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u170def21 {
+@-webkit-keyframes inline-ud2314f62 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -894,7 +900,7 @@ circle {
   }
 }
 
-@keyframes inline-u170def21 {
+@keyframes inline-ud2314f62 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -902,6 +908,12 @@ circle {
   100% {
     -webkit-transform: translateX(180px);
             transform: translateX(180px);
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-wrap .animation-imgs-bg .img-slide-2, .banner-wrap .animation-imgs-bg .img-slide-3 {
+    display: none;
   }
 }
 
@@ -1113,8 +1125,8 @@ circle {
   position: absolute;
   top: 20px;
   left: -10px;
-  -webkit-animation-name: inline-u03467a21;
-          animation-name: inline-u03467a21;
+  -webkit-animation-name: inline-u1cea0a51;
+          animation-name: inline-u1cea0a51;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -1131,7 +1143,7 @@ circle {
   z-index: -1;
 }
 
-@-webkit-keyframes inline-u03467a21 {
+@-webkit-keyframes inline-u1cea0a51 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1142,7 +1154,7 @@ circle {
   }
 }
 
-@keyframes inline-u03467a21 {
+@keyframes inline-u1cea0a51 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1150,6 +1162,12 @@ circle {
   100% {
     -webkit-transform: translateX(30px);
             transform: translateX(30px);
+  }
+}
+
+@media (max-width: 767px) {
+  .anim-wrap .anim-img .animated-bg {
+    display: none;
   }
 }
 
@@ -1931,8 +1949,8 @@ circle {
   position: absolute;
   bottom: 20%;
   left: 122px;
-  -webkit-animation-name: inline-u2f3f8daa;
-          animation-name: inline-u2f3f8daa;
+  -webkit-animation-name: inline-u17588aae;
+          animation-name: inline-u17588aae;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -1946,7 +1964,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u2f3f8daa {
+@-webkit-keyframes inline-u17588aae {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1957,7 +1975,7 @@ circle {
   }
 }
 
-@keyframes inline-u2f3f8daa {
+@keyframes inline-u17588aae {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1965,6 +1983,12 @@ circle {
   100% {
     -webkit-transform: translateX(45px);
             transform: translateX(45px);
+  }
+}
+
+@media (max-width: 767px) {
+  .chooseUs .img-part .anim-shape {
+    display: none;
   }
 }
 
