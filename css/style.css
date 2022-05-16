@@ -830,8 +830,8 @@ circle {
 .banner-wrap .animation-imgs-bg .img-slide-1 {
   left: 0;
   top: 5%;
-  -webkit-animation-name: inline-u3a9e503d;
-          animation-name: inline-u3a9e503d;
+  -webkit-animation-name: inline-u2299f229;
+          animation-name: inline-u2299f229;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -845,7 +845,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u3a9e503d {
+@-webkit-keyframes inline-u2299f229 {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -856,7 +856,7 @@ circle {
   }
 }
 
-@keyframes inline-u3a9e503d {
+@keyframes inline-u2299f229 {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -874,8 +874,8 @@ circle {
 }
 
 .banner-wrap .animation-imgs-bg .img-slide-2, .banner-wrap .animation-imgs-bg .img-slide-3 {
-  -webkit-animation-name: inline-ubf828033;
-          animation-name: inline-ubf828033;
+  -webkit-animation-name: inline-ubaafc7e5;
+          animation-name: inline-ubaafc7e5;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -889,7 +889,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-ubf828033 {
+@-webkit-keyframes inline-ubaafc7e5 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -900,7 +900,7 @@ circle {
   }
 }
 
-@keyframes inline-ubf828033 {
+@keyframes inline-ubaafc7e5 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1125,8 +1125,8 @@ circle {
   position: absolute;
   top: 20px;
   left: -10px;
-  -webkit-animation-name: inline-ua906d461;
-          animation-name: inline-ua906d461;
+  -webkit-animation-name: inline-ud1c7b04a;
+          animation-name: inline-ud1c7b04a;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -1143,7 +1143,7 @@ circle {
   z-index: -1;
 }
 
-@-webkit-keyframes inline-ua906d461 {
+@-webkit-keyframes inline-ud1c7b04a {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1154,7 +1154,7 @@ circle {
   }
 }
 
-@keyframes inline-ua906d461 {
+@keyframes inline-ud1c7b04a {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1949,8 +1949,8 @@ circle {
   position: absolute;
   bottom: 20%;
   left: 122px;
-  -webkit-animation-name: inline-u18a000ca;
-          animation-name: inline-u18a000ca;
+  -webkit-animation-name: inline-u602f3858;
+          animation-name: inline-u602f3858;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -1964,7 +1964,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u18a000ca {
+@-webkit-keyframes inline-u602f3858 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1975,7 +1975,7 @@ circle {
   }
 }
 
-@keyframes inline-u18a000ca {
+@keyframes inline-u602f3858 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);

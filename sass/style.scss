@@ -17,6 +17,7 @@
 @import "counter";
 @import "chooseUs";
 @import "blog";
+@import "footer";
 
 .gray {
 	@include prefix(filter, grayscale(50%), moz webkit);
