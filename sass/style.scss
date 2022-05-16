@@ -16,6 +16,7 @@
 @import "portfolio";
 @import "counter";
 @import "chooseUs";
+@import "blog";
 
 .gray {
 	@include prefix(filter, grayscale(50%), moz webkit);
