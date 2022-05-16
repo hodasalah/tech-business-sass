@@ -188,6 +188,7 @@ body {
   color: #696b6d;
   font-family: "Red Hat Text", sans-serif;
   font-weight: 400;
+  font-display: swap;
   font-style: normal;
   font-size: 17px;
   line-height: 1.6;
@@ -830,8 +831,8 @@ circle {
 .banner-wrap .animation-imgs-bg .img-slide-1 {
   left: 0;
   top: 5%;
-  -webkit-animation-name: inline-u2299f229;
-          animation-name: inline-u2299f229;
+  -webkit-animation-name: inline-ud4e2f096;
+          animation-name: inline-ud4e2f096;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -845,7 +846,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u2299f229 {
+@-webkit-keyframes inline-ud4e2f096 {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -856,7 +857,7 @@ circle {
   }
 }
 
-@keyframes inline-u2299f229 {
+@keyframes inline-ud4e2f096 {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -874,8 +875,8 @@ circle {
 }
 
 .banner-wrap .animation-imgs-bg .img-slide-2, .banner-wrap .animation-imgs-bg .img-slide-3 {
-  -webkit-animation-name: inline-ubaafc7e5;
-          animation-name: inline-ubaafc7e5;
+  -webkit-animation-name: inline-u4615c811;
+          animation-name: inline-u4615c811;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -889,7 +890,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-ubaafc7e5 {
+@-webkit-keyframes inline-u4615c811 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -900,7 +901,7 @@ circle {
   }
 }
 
-@keyframes inline-ubaafc7e5 {
+@keyframes inline-u4615c811 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1125,8 +1126,8 @@ circle {
   position: absolute;
   top: 20px;
   left: -10px;
-  -webkit-animation-name: inline-ud1c7b04a;
-          animation-name: inline-ud1c7b04a;
+  -webkit-animation-name: inline-u0879143b;
+          animation-name: inline-u0879143b;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -1143,7 +1144,7 @@ circle {
   z-index: -1;
 }
 
-@-webkit-keyframes inline-ud1c7b04a {
+@-webkit-keyframes inline-u0879143b {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1154,7 +1155,7 @@ circle {
   }
 }
 
-@keyframes inline-ud1c7b04a {
+@keyframes inline-u0879143b {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1949,8 +1950,8 @@ circle {
   position: absolute;
   bottom: 20%;
   left: 122px;
-  -webkit-animation-name: inline-u602f3858;
-          animation-name: inline-u602f3858;
+  -webkit-animation-name: inline-u17554c07;
+          animation-name: inline-u17554c07;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -1964,7 +1965,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u602f3858 {
+@-webkit-keyframes inline-u17554c07 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1975,7 +1976,7 @@ circle {
   }
 }
 
-@keyframes inline-u602f3858 {
+@keyframes inline-u17554c07 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
