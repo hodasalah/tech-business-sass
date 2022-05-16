@@ -1,5 +1,8 @@
 // slick settings
 $(document).ready(function () {
+	$(window).load(function () {
+		$("#loading").hide();
+	});
 	$(".slick-items").slick({
 		slidesToShow: 4,
 		slidesToScroll: 1,

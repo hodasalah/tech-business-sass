@@ -221,6 +221,66 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid #ff8a17;
 }
 
+.lds-hourglass {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 32px solid #ff4a17;
+  border-color: #ff8a17 transparent #ff8a17 transparent;
+  -webkit-animation: lds-hourglass 1.2s infinite;
+          animation: lds-hourglass 1.2s infinite;
+}
+
+@-webkit-keyframes lds-hourglass {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+            transform: rotate(900deg);
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    -webkit-transform: rotate(1800deg);
+            transform: rotate(1800deg);
+  }
+}
+
+@keyframes lds-hourglass {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    -webkit-transform: rotate(900deg);
+            transform: rotate(900deg);
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+            animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    -webkit-transform: rotate(1800deg);
+            transform: rotate(1800deg);
+  }
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -830,8 +890,8 @@ circle {
 .banner-wrap .animation-imgs-bg .img-slide-1 {
   left: 0;
   top: 5%;
-  -webkit-animation-name: inline-u61a7d8c4;
-          animation-name: inline-u61a7d8c4;
+  -webkit-animation-name: inline-ue7c2b4c6;
+          animation-name: inline-ue7c2b4c6;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -845,7 +905,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u61a7d8c4 {
+@-webkit-keyframes inline-ue7c2b4c6 {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -856,7 +916,7 @@ circle {
   }
 }
 
-@keyframes inline-u61a7d8c4 {
+@keyframes inline-ue7c2b4c6 {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -874,8 +934,8 @@ circle {
 }
 
 .banner-wrap .animation-imgs-bg .img-slide-2, .banner-wrap .animation-imgs-bg .img-slide-3 {
-  -webkit-animation-name: inline-u985ed000;
-          animation-name: inline-u985ed000;
+  -webkit-animation-name: inline-u8bf1ef2f;
+          animation-name: inline-u8bf1ef2f;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -889,7 +949,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u985ed000 {
+@-webkit-keyframes inline-u8bf1ef2f {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -900,7 +960,7 @@ circle {
   }
 }
 
-@keyframes inline-u985ed000 {
+@keyframes inline-u8bf1ef2f {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1125,8 +1185,8 @@ circle {
   position: absolute;
   top: 20px;
   left: -10px;
-  -webkit-animation-name: inline-uf9648824;
-          animation-name: inline-uf9648824;
+  -webkit-animation-name: inline-ub28608cd;
+          animation-name: inline-ub28608cd;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -1143,7 +1203,7 @@ circle {
   z-index: -1;
 }
 
-@-webkit-keyframes inline-uf9648824 {
+@-webkit-keyframes inline-ub28608cd {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1154,7 +1214,7 @@ circle {
   }
 }
 
-@keyframes inline-uf9648824 {
+@keyframes inline-ub28608cd {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1949,8 +2009,8 @@ circle {
   position: absolute;
   bottom: 20%;
   left: 122px;
-  -webkit-animation-name: inline-ua3427e9e;
-          animation-name: inline-ua3427e9e;
+  -webkit-animation-name: inline-u735ac938;
+          animation-name: inline-u735ac938;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -1964,7 +2024,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-ua3427e9e {
+@-webkit-keyframes inline-u735ac938 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1975,7 +2035,7 @@ circle {
   }
 }
 
-@keyframes inline-ua3427e9e {
+@keyframes inline-u735ac938 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
