@@ -34,21 +34,12 @@ body::-webkit-scrollbar-thumb {
 	outline: 1px solid $darkYellow;
 }
 //loader
-<<<<<<< HEAD
-#loading {
-	width: 100%;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-=======
 #loading{
 	width:100%;
 	height:100vh;
 	display:flex;
 	justify-content:center;
 	align-items:center;
->>>>>>> 2d794dc88d8cb7b00ff5a9e808e834e149f3b505
 }
 .lds-hourglass {
 	display: inline-block;

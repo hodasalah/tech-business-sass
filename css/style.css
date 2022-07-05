@@ -905,8 +905,8 @@ circle {
 .banner-wrap .animation-imgs-bg .img-slide-1 {
   left: 0;
   top: 5%;
-  -webkit-animation-name: inline-u06a125c3;
-          animation-name: inline-u06a125c3;
+  -webkit-animation-name: inline-ub6c1000b;
+          animation-name: inline-ub6c1000b;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -920,7 +920,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u06a125c3 {
+@-webkit-keyframes inline-ub6c1000b {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -931,7 +931,7 @@ circle {
   }
 }
 
-@keyframes inline-u06a125c3 {
+@keyframes inline-ub6c1000b {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -949,8 +949,8 @@ circle {
 }
 
 .banner-wrap .animation-imgs-bg .img-slide-2, .banner-wrap .animation-imgs-bg .img-slide-3 {
-  -webkit-animation-name: inline-u5a274fc1;
-          animation-name: inline-u5a274fc1;
+  -webkit-animation-name: inline-u31a28cd7;
+          animation-name: inline-u31a28cd7;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -964,7 +964,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-u5a274fc1 {
+@-webkit-keyframes inline-u31a28cd7 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -975,7 +975,7 @@ circle {
   }
 }
 
-@keyframes inline-u5a274fc1 {
+@keyframes inline-u31a28cd7 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1200,8 +1200,8 @@ circle {
   position: absolute;
   top: 20px;
   left: -10px;
-  -webkit-animation-name: inline-ub9db24c5;
-          animation-name: inline-ub9db24c5;
+  -webkit-animation-name: inline-u805baf7f;
+          animation-name: inline-u805baf7f;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -1218,7 +1218,7 @@ circle {
   z-index: -1;
 }
 
-@-webkit-keyframes inline-ub9db24c5 {
+@-webkit-keyframes inline-u805baf7f {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -1229,7 +1229,7 @@ circle {
   }
 }
 
-@keyframes inline-ub9db24c5 {
+@keyframes inline-u805baf7f {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -2024,8 +2024,8 @@ circle {
   position: absolute;
   bottom: 20%;
   left: 122px;
-  -webkit-animation-name: inline-uc144520e;
-          animation-name: inline-uc144520e;
+  -webkit-animation-name: inline-u7343b506;
+          animation-name: inline-u7343b506;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
@@ -2039,7 +2039,7 @@ circle {
   -o-animation-play-state: running;
 }
 
-@-webkit-keyframes inline-uc144520e {
+@-webkit-keyframes inline-u7343b506 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -2050,7 +2050,7 @@ circle {
   }
 }
 
-@keyframes inline-uc144520e {
+@keyframes inline-u7343b506 {
   0% {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
@@ -2178,6 +2178,37 @@ circle {
 
 .blog .body h3:hover {
   color: #ff4a17;
+}
+
+.footer {
+  color: #f1f1f1;
+  background: #2e057b;
+  font-weight: 400;
+}
+
+.footer .main-footer {
+  padding: 65px 0 73px;
+}
+
+.footer .main-footer .list h2 {
+  margin: 28px 0;
+  font-size: 25px;
+  color: #fff;
+}
+
+.footer .main-footer .list p,
+.footer .main-footer .list div,
+.footer .main-footer .list ul,
+.footer .main-footer .list li {
+  margin-bottom: 1rem;
+}
+
+.footer .main-footer .list h3,
+.footer .main-footer .list h3 a {
+  font-size: 18px;
+  color: #f3f1f1;
+  font-weight: 600;
+  margin-right: 5px;
 }
 
 .gray {
